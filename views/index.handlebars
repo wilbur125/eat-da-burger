@@ -1,0 +1,45 @@
+    <header>
+        <h1>EAT-DA-BURGER!</h1>
+    </header>
+
+{{!-- container for the app --}}
+    <div class="container">
+        {{!-- row for need to try and devoured lists --}}
+        <div class="row">
+            {{!-- column for need to try --}}
+            <div class="col">
+                <h3>Need to try!</h3>
+                <ul>
+                    <li>
+                        {{!-- list of burgers I need to try and burgers need to be clicked on to select and devour --}}
+                        <form>
+                            <button class="btn btn-primary" type="submit">Devour It!</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            {{!-- column for devoured --}}
+            <div class="col">
+                <h3>Devoured!</h3>
+                <ul>
+                    <li>
+                        {{!-- list of burgers devoured --}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        {{!-- row for form to add a burger --}}
+        <div class="row">
+            <div class="col">
+                <form>
+                    {{!-- text input for burger_name --}}
+                    <div class="form-group">
+                        <input type="text" name="burger_name">
+                    </div>
+                    {{!-- button to add the burger to need to try lists --}}
+                    <button type="submit" class="btn btn-primary" id="submit">Add Burger</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
