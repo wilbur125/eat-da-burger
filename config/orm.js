@@ -9,7 +9,7 @@ function insertOne() {
 }
 
 function updateOne() {
-    
+
 }
 
 module.exports = {selectAll, insertOne, updateOne};
