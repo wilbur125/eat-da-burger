@@ -4,4 +4,3 @@ VALUES
     ('Cheeseburger', true),
     ('Chicken Burger', true),
     ('Kobe Burger', false)
-

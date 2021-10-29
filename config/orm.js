@@ -19,7 +19,6 @@ function insertOne(thisBurger_name, thisDevoured) {
 function updateOne(thisBurger_id, thisDevoured) {
     connection.query('UPDATE burgers SET devoured = ? WHERE id = ?', [thisBurger_id, thisDevoured], function (error, results, fields) {
         if (error) throw error;
-        // ... thats it really
     });
 }
 

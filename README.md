@@ -29,7 +29,3 @@
   ## Tests
 
   node server.js
-
-  ## Demo Gif
-
-  ![Burgers](/assets/EAT-DA-BURGER!.gif)
