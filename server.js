@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 var exphbs = require("express-handlebars");
 var routes = require("./controllers/burgers_controller.js")
 
-var PORT = process.env.PORT || 3307;
+var PORT = process.env.PORT;
 var app = express();
 
 app.use(express.static("public"));
